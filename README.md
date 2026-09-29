@@ -1,68 +1,72 @@
 # Roundcube plugins
 
-Плагины для Roundcube Webmail (iRedMail).
+Plugins for Roundcube Webmail (iRedMail installs).
+
+English | [Русский](README_RU.md)
 
 ## folder_icons
 
-Иконки и цвета для папок: заменяет стандартную иконку папки в дереве почты и
-в Settings -> Folders на индивидуальную (Font Awesome) с произвольным цветом.
+Per-folder icons and colors: replaces the standard folder icon in the mail
+sidebar and in Settings -> Folders with an individual Font Awesome icon and
+optional color.
 
-- Настройка через веб-интерфейс: Settings -> Folders -> секция «Folder icon»
-  (хранится в персональных настройках пользователя), либо глобально через
-  `folder_icons/config.inc.php`.
-- 181 иконка, каждый кодпоинт проверен по фактическим файлам шрифта Elastic —
-  пустых «квадратиков» не будет.
-- Подробности: [folder_icons/README.md](folder_icons/README.md)
+- Configured in the web UI: Settings -> Folders -> the "Folder icon" section
+  (stored per user in prefs), or globally via `folder_icons/config.inc.php`.
+- 181 icons; every codepoint is verified against the actual Elastic skin font
+  files, so no glyph can render as an empty box.
+- Handles Cyrillic and emoji folder names (IMAP UTF-7 is converted internally).
+- Details: [folder_icons/README.md](folder_icons/README.md)
 
 ## find_from
 
-Контекстное меню списка писем: «Найти письма от отправителя», «…этому
-отправителю», «…с домена отправителя». Требует плагин `contextmenu`.
-В комплекте аддон `folder_badge` — бейдж с именем папки в результатах
-многопапочного поиска.
-- Подробности: [find_from/README.md](find_from/README.md)
+Message-list context menu: "Find emails from sender", "…to sender",
+"…from the sender's domain". Requires the `contextmenu` plugin.
+Ships the `folder_badge` addon — a folder-name badge in multi-folder
+search results.
+- Details: [find_from/README.md](find_from/README.md)
 
-## Структура
+## Repository layout
 
-- `folder_icons/` — плагин (копируется в `plugins/` Roundcube)
-- `find_from/` — плагин (копируется в `plugins/` Roundcube)
-- `demo/` — офлайн-демо-страницы для проверки
-- `tools/gen_css.py` — генератор `css/folder_icons.css` и `icons.php` из
-  метаданных Font Awesome с фильтрацией по глифам, реально присутствующим
-  в шрифте скина
+- `folder_icons/` — plugin (copied into Roundcube's `plugins/`)
+- `find_from/` — plugin (copied into Roundcube's `plugins/`)
+- `demo/` — offline demo pages
+- `tools/gen_css.py` — generates `css/folder_icons.css` and `icons.php` from
+  Font Awesome metadata, filtered by the glyphs actually present in the skin font
+- `deploy.sh` — one-command install/update on the mail server
 
-## Установка folder_icons
+## Installing folder_icons
 
 ```bash
 scp -r folder_icons/* root@mail.example.tld:/opt/www/roundcubemail/plugins/folder_icons/
 ```
 
-и добавить `'folder_icons'` в `$config['plugins']` конфига Roundcube.
+and add `'folder_icons'` to `$config['plugins']` in the Roundcube config.
 
-## Обновление на сервере из репозитория
+## Updating the plugins on the server from this repository
 
-Один раз на сервере (публичный клон, без авторизации):
+One-time on the mail server (public clone, no authentication):
 
 ```bash
 git clone https://github.com/pilot-telematics/rouncube_plugins.git /opt/roundcube_plugins
 ```
 
-Установка и все последующие обновления — одной командой:
+Installing and every later update is a single command:
 
 ```bash
 /opt/roundcube_plugins/deploy.sh
 ```
 
-Скрипт сам делает `git pull`, раскладывает `folder_icons` и `find_from` в
-`plugins/` Roundcube, ставит права и **не трогает** `folder_icons/config.inc.php`
-(ваши живые настройки переживают обновления; при первой установке он создаётся
-из шаблона). Путь к Roundcube, отличный от `/opt/www/roundcubemail`:
+The script runs `git pull`, deploys `folder_icons` and `find_from` into the
+Roundcube `plugins/` directory, sets permissions and **never overwrites**
+`folder_icons/config.inc.php` (your live settings survive updates; on first
+install the file is created from the `.dist` template). Non-default Roundcube
+path:
 
 ```bash
 RC_DIR=/var/www/roundcube /opt/roundcube_plugins/deploy.sh
 ```
 
-Вариант без git на сервере — rsync с рабочей машины:
+Alternative without git on the server — rsync from a workstation:
 
 ```bash
 rsync -rv --exclude config.inc.php folder_icons/ root@mail.example.tld:/opt/www/roundcubemail/plugins/folder_icons/
