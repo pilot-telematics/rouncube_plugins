@@ -1,0 +1,14 @@
+{
+    "name": "pilot/find-from",
+    "description": "Adds context-menu actions to search messages from/to the selected sender or the sender's whole domain; also bundles the folder_badge listing addon",
+    "type": "roundcube-plugin",
+    "license": "MIT",
+    "version": "1.0.1",
+    "require": {
+        "php": ">=7.3",
+        "roundcube/plugin-installer": ">=0.2.0"
+    },
+    "suggest": {
+        "sblaisot/contextmenu": "Required for the context-menu entries (menu integration)"
+    }
+}

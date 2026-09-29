@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>folder_icons demo</title>
+<style>
+/* --- trimmed replica of the Elastic skin icon CSS --- */
+@font-face {
+    font-family: Icons;
+    font-style: normal;
+    font-weight: 900;
+    src: url("fa-solid-900.woff2") format('woff2');
+}
+@font-face {
+    font-family: Icons;
+    font-style: normal;
+    font-weight: 400;
+    src: url("fa-regular-400.woff2") format('woff2');
+}
+body { font: 14px/1.4 Segoe UI, Roboto, sans-serif; background: #fff; margin: 0; padding: 16px; }
+h2 { font-size: 13px; color: #888; text-transform: uppercase; margin: 18px 0 6px; }
+ul { margin: 0; padding: 0; }
+li { list-style: none; }
+.folderlist li a {
+    display: block; padding: .45rem .6rem; text-decoration: none; color: #1c1c1c;
+}
+.folderlist li a:before {
+    font-size: 1.25em;
+    display: block;
+    float: left;
+    margin: 0 .25rem 0 0;
+    width: 1.18em;
+    height: 1em;
+    font-family: Icons;
+    font-style: normal;
+    font-weight: 900;
+    text-decoration: inherit;
+    text-align: center;
+    speak: none;
+    font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+}
+.folderlist li.inbox>a:before { content: "\f01c"; font-weight: 900; }
+.folderlist li.drafts>a:before { content: "\f044"; font-weight: 900; }
+.folderlist li.sent>a:before { content: "\f1d8"; font-weight: 900; }
+.folderlist li.junk>a:before { content: "\f06d"; font-weight: 900; }
+.folderlist li.trash>a:before { content: "\f1f8"; font-weight: 900; }
+.folderlist li a:before {
+    content: "\f07b";
+    font-weight: 400;
+    margin-right: .5rem;
+}
+.unreadcount {
+    float: right; background: #aea79f; border-radius: .3rem; color: #fff;
+    font-size: 11px; padding: 0 .35rem; margin-top: .15rem;
+}
+.folderlist li.selected > a { background: #e8f4fa; }
+</style>
+<!-- the plugin -->
+<link rel="stylesheet" href="../folder_icons/css/folder_icons.css">
+</head>
+<body>
+
+<h2>Settings &rarr; Folders (with plugin active)</h2>
+<ul class="folderlist" id="folders-list">
+    <li class="mailbox inbox"><a href="#">INBOX</a></li>
+    <li class="mailbox drafts"><a href="#">Drafts</a></li>
+    <li class="mailbox sent"><a href="#">Sent</a></li>
+    <li class="mailbox junk"><a href="#">Junk</a></li>
+    <li class="mailbox trash"><a href="#">Trash</a></li>
+    <li class="mailbox"><a href="#" title="📁 Projects">📁 Projects</a></li>
+    <li class="mailbox"><a href="#">Finance</a></li>
+    <li class="mailbox"><a href="#">Team</a></li>
+    <li class="mailbox"><a href="#">Newsletter</a></li>
+    <li class="mailbox"><a href="#">Receipts</a></li>
+    <li class="mailbox"><a href="#">Travel</a></li>
+    <li class="mailbox"><a href="#">Photos</a></li>
+    <li class="mailbox"><a href="#">notes <span class="unreadcount">3</span></a></li>
+    <li class="mailbox"><a href="#" title="INBOX/2023">2023</a></li>
+    <li class="mailbox"><a href="#">unmapped-folder</a></li>
+</ul>
+
+<h2>Mail sidebar (special folder selected)</h2>
+<ul class="folderlist" id="mailboxlist">
+    <li class="mailbox inbox"><a href="#">INBOX</a></li>
+    <li class="mailbox"><a href="#">📁 Projects</a></li>
+    <li class="mailbox selected"><a href="#">Finance</a></li>
+</ul>
+
+<script>
+window.rcmail = { env: { folder_icons: {
+    map: {
+        'projects':  { icon: 'diagram-project', color: '#0369a1' },
+        'finance':   { icon: 'coins', color: '#b45309' },
+        'team':      { icon: 'users' },
+        'newsletter':{ icon: 'newspaper', color: '#2563eb' },
+        'receipts':  { icon: 'receipt', color: '#15803d' },
+        'travel':    { icon: 'plane' },
+        'photos':    { icon: 'image', color: '#7c3aed' },
+        'notes':     { icon: 'file-lines', color: '#64748b' },
+        're:^20\\d\\d$': { icon: 'calendar-days' }
+    },
+    default: 'folder-open'
+} } };
+</script>
+<script src="../folder_icons/js/folder_icons.js"></script>
+</body>
+</html>

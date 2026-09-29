@@ -1,0 +1,28 @@
+.find-folder-badge {
+    display: inline-block;
+    margin-left: .55em;
+    padding: 0 .4em;
+
+    border: 1px solid currentColor;
+    border-radius: .35em;
+
+    font-size: .72em;
+    font-weight: normal;
+    line-height: 1.45;
+
+    opacity: .6;
+    vertical-align: middle;
+
+    max-width: 12em;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+tr.selected .find-folder-badge {
+    opacity: .9;
+}
+
+tr.unread .find-folder-badge {
+    font-weight: normal;
+}

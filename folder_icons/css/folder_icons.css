@@ -1,0 +1,1474 @@
+/*
+ * Folder Icons plugin - generated file, do not edit by hand.
+ *
+ * Uses the icon font (family "Icons") already shipped by the Elastic skin:
+ *   weight 400 -> fa-regular-400, weight 900 -> fa-solid-900.
+ * Every codepoint below is verified to exist in the skin font files.
+ *
+ * Icon classes: .fi-<name> assigned to folderlist <li> elements by js/folder_icons.js.
+ */
+
+/* base: only folders that got an icon class are switched to the plugin font/style */
+.folderlist li[class*="fi-"] > a:before {
+    font-family: Icons !important;
+    font-style: normal;
+    color: var(--fi-color, currentColor);
+}
+
+.folderlist li.fi-address-book > a:before {
+    content: "\f2b9" !important;
+    font-weight: 400 !important;
+}
+.folderlist li.fi-address-card > a:before {
+    content: "\f2bb" !important;
+    font-weight: 400 !important;
+}
+.folderlist li.fi-anchor > a:before {
+    content: "\f13d" !important;
+    font-weight: 900 !important;
+}
+.folderlist li.fi-arrows-rotate > a:before {
+    content: "\f021" !important;
+    font-weight: 900 !important;
+}
+.folderlist li.fi-bag-shopping > a:before {
+    content: "\f290" !important;
+    font-weight: 900 !important;
+}
+.folderlist li.fi-ban > a:before {
+    content: "\f05e" !important;
+    font-weight: 900 !important;
+}
+.folderlist li.fi-barcode > a:before {
+    content: "\f02a" !important;
+    font-weight: 900 !important;
+}
+.folderlist li.fi-basket-shopping > a:before {
+    content: "\f291" !important;
+    font-weight: 900 !important;
+}
+.folderlist li.fi-bell > a:before {
+    content: "\f0f3" !important;
+    font-weight: 400 !important;
+}
+.folderlist li.fi-bicycle > a:before {
+    content: "\f206" !important;
+    font-weight: 900 !important;
+}
+.folderlist li.fi-bolt > a:before {
+    content: "\f0e7" !important;
+    font-weight: 900 !important;
+}
+.folderlist li.fi-book > a:before {
+    content: "\f02d" !important;
+    font-weight: 900 !important;
+}
+.folderlist li.fi-book-open > a:before {
+    content: "\f518" !important;
+    font-weight: 900 !important;
+}
+.folderlist li.fi-bookmark > a:before {
+    content: "\f02e" !important;
+    font-weight: 400 !important;
+}
+.folderlist li.fi-box > a:before {
+    content: "\f466" !important;
+    font-weight: 900 !important;
+}
+.folderlist li.fi-box-archive > a:before {
+    content: "\f187" !important;
+    font-weight: 900 !important;
+}
+.folderlist li.fi-box-open > a:before {
+    content: "\f49e" !important;
+    font-weight: 900 !important;
+}
+.folderlist li.fi-boxes-stacked > a:before {
+    content: "\f468" !important;
+    font-weight: 900 !important;
+}
+.folderlist li.fi-bug > a:before {
+    content: "\f188" !important;
+    font-weight: 900 !important;
+}
+.folderlist li.fi-building > a:before {
+    content: "\f1ad" !important;
+    font-weight: 400 !important;
+}
+.folderlist li.fi-building-columns > a:before {
+    content: "\f19c" !important;
+    font-weight: 900 !important;
+}
+.folderlist li.fi-bullhorn > a:before {
+    content: "\f0a1" !important;
+    font-weight: 900 !important;
+}
+.folderlist li.fi-calendar > a:before {
+    content: "\f133" !important;
+    font-weight: 400 !important;
+}
+.folderlist li.fi-calendar-check > a:before {
+    content: "\f274" !important;
+    font-weight: 400 !important;
+}
+.folderlist li.fi-calendar-days > a:before {
+    content: "\f073" !important;
+    font-weight: 400 !important;
+}
+.folderlist li.fi-camera > a:before {
+    content: "\f030" !important;
+    font-weight: 900 !important;
+}
+.folderlist li.fi-car > a:before {
+    content: "\f1b9" !important;
+    font-weight: 900 !important;
+}
+.folderlist li.fi-cart-shopping > a:before {
+    content: "\f07a" !important;
+    font-weight: 900 !important;
+}
+.folderlist li.fi-chart-line > a:before {
+    content: "\f201" !important;
+    font-weight: 900 !important;
+}
+.folderlist li.fi-chart-pie > a:before {
+    content: "\f200" !important;
+    font-weight: 900 !important;
+}
+.folderlist li.fi-circle-check > a:before {
+    content: "\f058" !important;
+    font-weight: 400 !important;
+}
+.folderlist li.fi-circle-exclamation > a:before {
+    content: "\f06a" !important;
+    font-weight: 900 !important;
+}
+.folderlist li.fi-circle-info > a:before {
+    content: "\f05a" !important;
+    font-weight: 900 !important;
+}
+.folderlist li.fi-circle-question > a:before {
+    content: "\f059" !important;
+    font-weight: 400 !important;
+}
+.folderlist li.fi-circle-xmark > a:before {
+    content: "\f057" !important;
+    font-weight: 400 !important;
+}
+.folderlist li.fi-clipboard-list > a:before {
+    content: "\f46d" !important;
+    font-weight: 900 !important;
+}
+.folderlist li.fi-clock > a:before {
+    content: "\f017" !important;
+    font-weight: 400 !important;
+}
+.folderlist li.fi-cloud > a:before {
+    content: "\f0c2" !important;
+    font-weight: 900 !important;
+}
+.folderlist li.fi-code > a:before {
+    content: "\f121" !important;
+    font-weight: 900 !important;
+}
+.folderlist li.fi-coins > a:before {
+    content: "\f51e" !important;
+    font-weight: 900 !important;
+}
+.folderlist li.fi-comment > a:before {
+    content: "\f075" !important;
+    font-weight: 400 !important;
+}
+.folderlist li.fi-comment-dots > a:before {
+    content: "\f4ad" !important;
+    font-weight: 400 !important;
+}
+.folderlist li.fi-comments > a:before {
+    content: "\f086" !important;
+    font-weight: 400 !important;
+}
+.folderlist li.fi-credit-card > a:before {
+    content: "\f09d" !important;
+    font-weight: 400 !important;
+}
+.folderlist li.fi-cube > a:before {
+    content: "\f1b2" !important;
+    font-weight: 900 !important;
+}
+.folderlist li.fi-cubes > a:before {
+    content: "\f1b3" !important;
+    font-weight: 900 !important;
+}
+.folderlist li.fi-database > a:before {
+    content: "\f1c0" !important;
+    font-weight: 900 !important;
+}
+.folderlist li.fi-diagram-project > a:before {
+    content: "\f542" !important;
+    font-weight: 900 !important;
+}
+.folderlist li.fi-download > a:before {
+    content: "\f019" !important;
+    font-weight: 900 !important;
+}
+.folderlist li.fi-droplet > a:before {
+    content: "\f043" !important;
+    font-weight: 900 !important;
+}
+.folderlist li.fi-envelope > a:before {
+    content: "\f0e0" !important;
+    font-weight: 400 !important;
+}
+.folderlist li.fi-envelope-open > a:before {
+    content: "\f2b6" !important;
+    font-weight: 400 !important;
+}
+.folderlist li.fi-envelope-open-text > a:before {
+    content: "\f658" !important;
+    font-weight: 900 !important;
+}
+.folderlist li.fi-eye > a:before {
+    content: "\f06e" !important;
+    font-weight: 400 !important;
+}
+.folderlist li.fi-eye-slash > a:before {
+    content: "\f070" !important;
+    font-weight: 400 !important;
+}
+.folderlist li.fi-file > a:before {
+    content: "\f15b" !important;
+    font-weight: 400 !important;
+}
+.folderlist li.fi-file-code > a:before {
+    content: "\f1c9" !important;
+    font-weight: 400 !important;
+}
+.folderlist li.fi-file-csv > a:before {
+    content: "\f6dd" !important;
+    font-weight: 900 !important;
+}
+.folderlist li.fi-file-excel > a:before {
+    content: "\f1c3" !important;
+    font-weight: 400 !important;
+}
+.folderlist li.fi-file-invoice > a:before {
+    content: "\f570" !important;
+    font-weight: 900 !important;
+}
+.folderlist li.fi-file-invoice-dollar > a:before {
+    content: "\f571" !important;
+    font-weight: 900 !important;
+}
+.folderlist li.fi-file-lines > a:before {
+    content: "\f15c" !important;
+    font-weight: 400 !important;
+}
+.folderlist li.fi-file-pdf > a:before {
+    content: "\f1c1" !important;
+    font-weight: 400 !important;
+}
+.folderlist li.fi-file-powerpoint > a:before {
+    content: "\f1c4" !important;
+    font-weight: 400 !important;
+}
+.folderlist li.fi-file-word > a:before {
+    content: "\f1c2" !important;
+    font-weight: 400 !important;
+}
+.folderlist li.fi-file-zipper > a:before {
+    content: "\f1c6" !important;
+    font-weight: 400 !important;
+}
+.folderlist li.fi-film > a:before {
+    content: "\f008" !important;
+    font-weight: 900 !important;
+}
+.folderlist li.fi-filter > a:before {
+    content: "\f0b0" !important;
+    font-weight: 900 !important;
+}
+.folderlist li.fi-fire > a:before {
+    content: "\f06d" !important;
+    font-weight: 900 !important;
+}
+.folderlist li.fi-fire-flame-curved > a:before {
+    content: "\f7e4" !important;
+    font-weight: 900 !important;
+}
+.folderlist li.fi-folder > a:before {
+    content: "\f07b" !important;
+    font-weight: 400 !important;
+}
+.folderlist li.fi-folder-minus > a:before {
+    content: "\f65d" !important;
+    font-weight: 900 !important;
+}
+.folderlist li.fi-folder-open > a:before {
+    content: "\f07c" !important;
+    font-weight: 400 !important;
+}
+.folderlist li.fi-folder-plus > a:before {
+    content: "\f65e" !important;
+    font-weight: 900 !important;
+}
+.folderlist li.fi-gear > a:before {
+    content: "\f013" !important;
+    font-weight: 900 !important;
+}
+.folderlist li.fi-gears > a:before {
+    content: "\f085" !important;
+    font-weight: 900 !important;
+}
+.folderlist li.fi-gem > a:before {
+    content: "\f3a5" !important;
+    font-weight: 400 !important;
+}
+.folderlist li.fi-gift > a:before {
+    content: "\f06b" !important;
+    font-weight: 900 !important;
+}
+.folderlist li.fi-globe > a:before {
+    content: "\f0ac" !important;
+    font-weight: 900 !important;
+}
+.folderlist li.fi-graduation-cap > a:before {
+    content: "\f19d" !important;
+    font-weight: 900 !important;
+}
+.folderlist li.fi-hand-holding-dollar > a:before {
+    content: "\f4c0" !important;
+    font-weight: 900 !important;
+}
+.folderlist li.fi-handshake > a:before {
+    content: "\f2b5" !important;
+    font-weight: 400 !important;
+}
+.folderlist li.fi-hard-drive > a:before {
+    content: "\f0a0" !important;
+    font-weight: 400 !important;
+}
+.folderlist li.fi-headphones > a:before {
+    content: "\f025" !important;
+    font-weight: 900 !important;
+}
+.folderlist li.fi-heart > a:before {
+    content: "\f004" !important;
+    font-weight: 400 !important;
+}
+.folderlist li.fi-home > a:before {
+    content: "\f015" !important;
+    font-weight: 900 !important;
+}
+.folderlist li.fi-hospital > a:before {
+    content: "\f0f8" !important;
+    font-weight: 400 !important;
+}
+.folderlist li.fi-hourglass-half > a:before {
+    content: "\f252" !important;
+    font-weight: 900 !important;
+}
+.folderlist li.fi-id-card > a:before {
+    content: "\f2c2" !important;
+    font-weight: 400 !important;
+}
+.folderlist li.fi-image > a:before {
+    content: "\f03e" !important;
+    font-weight: 400 !important;
+}
+.folderlist li.fi-images > a:before {
+    content: "\f302" !important;
+    font-weight: 400 !important;
+}
+.folderlist li.fi-inbox > a:before {
+    content: "\f01c" !important;
+    font-weight: 900 !important;
+}
+.folderlist li.fi-industry > a:before {
+    content: "\f275" !important;
+    font-weight: 900 !important;
+}
+.folderlist li.fi-key > a:before {
+    content: "\f084" !important;
+    font-weight: 900 !important;
+}
+.folderlist li.fi-laptop > a:before {
+    content: "\f109" !important;
+    font-weight: 900 !important;
+}
+.folderlist li.fi-leaf > a:before {
+    content: "\f06c" !important;
+    font-weight: 900 !important;
+}
+.folderlist li.fi-lightbulb > a:before {
+    content: "\f0eb" !important;
+    font-weight: 400 !important;
+}
+.folderlist li.fi-link > a:before {
+    content: "\f0c1" !important;
+    font-weight: 900 !important;
+}
+.folderlist li.fi-list-check > a:before {
+    content: "\f0ae" !important;
+    font-weight: 900 !important;
+}
+.folderlist li.fi-list-ol > a:before {
+    content: "\f0cb" !important;
+    font-weight: 900 !important;
+}
+.folderlist li.fi-list-ul > a:before {
+    content: "\f0ca" !important;
+    font-weight: 900 !important;
+}
+.folderlist li.fi-location-dot > a:before {
+    content: "\f3c5" !important;
+    font-weight: 900 !important;
+}
+.folderlist li.fi-lock > a:before {
+    content: "\f023" !important;
+    font-weight: 900 !important;
+}
+.folderlist li.fi-lock-open > a:before {
+    content: "\f3c1" !important;
+    font-weight: 900 !important;
+}
+.folderlist li.fi-magnifying-glass > a:before {
+    content: "\f002" !important;
+    font-weight: 900 !important;
+}
+.folderlist li.fi-map > a:before {
+    content: "\f279" !important;
+    font-weight: 400 !important;
+}
+.folderlist li.fi-map-location > a:before {
+    content: "\f59f" !important;
+    font-weight: 900 !important;
+}
+.folderlist li.fi-microchip > a:before {
+    content: "\f2db" !important;
+    font-weight: 900 !important;
+}
+.folderlist li.fi-microphone > a:before {
+    content: "\f130" !important;
+    font-weight: 900 !important;
+}
+.folderlist li.fi-money-bill > a:before {
+    content: "\f0d6" !important;
+    font-weight: 900 !important;
+}
+.folderlist li.fi-money-bill-1 > a:before {
+    content: "\f3d1" !important;
+    font-weight: 400 !important;
+}
+.folderlist li.fi-money-check-dollar > a:before {
+    content: "\f53d" !important;
+    font-weight: 900 !important;
+}
+.folderlist li.fi-moon > a:before {
+    content: "\f186" !important;
+    font-weight: 400 !important;
+}
+.folderlist li.fi-mug-hot > a:before {
+    content: "\f7b6" !important;
+    font-weight: 900 !important;
+}
+.folderlist li.fi-mug-saucer > a:before {
+    content: "\f0f4" !important;
+    font-weight: 900 !important;
+}
+.folderlist li.fi-music > a:before {
+    content: "\f001" !important;
+    font-weight: 900 !important;
+}
+.folderlist li.fi-network-wired > a:before {
+    content: "\f6ff" !important;
+    font-weight: 900 !important;
+}
+.folderlist li.fi-newspaper > a:before {
+    content: "\f1ea" !important;
+    font-weight: 400 !important;
+}
+.folderlist li.fi-note-sticky > a:before {
+    content: "\f249" !important;
+    font-weight: 400 !important;
+}
+.folderlist li.fi-paintbrush > a:before {
+    content: "\f1fc" !important;
+    font-weight: 900 !important;
+}
+.folderlist li.fi-paper-plane > a:before {
+    content: "\f1d8" !important;
+    font-weight: 400 !important;
+}
+.folderlist li.fi-paperclip > a:before {
+    content: "\f0c6" !important;
+    font-weight: 900 !important;
+}
+.folderlist li.fi-paw > a:before {
+    content: "\f1b0" !important;
+    font-weight: 900 !important;
+}
+.folderlist li.fi-pen > a:before {
+    content: "\f304" !important;
+    font-weight: 900 !important;
+}
+.folderlist li.fi-pen-nib > a:before {
+    content: "\f5ad" !important;
+    font-weight: 900 !important;
+}
+.folderlist li.fi-pen-to-square > a:before {
+    content: "\f044" !important;
+    font-weight: 400 !important;
+}
+.folderlist li.fi-pencil > a:before {
+    content: "\f303" !important;
+    font-weight: 900 !important;
+}
+.folderlist li.fi-phone > a:before {
+    content: "\f095" !important;
+    font-weight: 900 !important;
+}
+.folderlist li.fi-phone-volume > a:before {
+    content: "\f2a0" !important;
+    font-weight: 900 !important;
+}
+.folderlist li.fi-piggy-bank > a:before {
+    content: "\f4d3" !important;
+    font-weight: 900 !important;
+}
+.folderlist li.fi-plane > a:before {
+    content: "\f072" !important;
+    font-weight: 900 !important;
+}
+.folderlist li.fi-play > a:before {
+    content: "\f04b" !important;
+    font-weight: 900 !important;
+}
+.folderlist li.fi-plug > a:before {
+    content: "\f1e6" !important;
+    font-weight: 900 !important;
+}
+.folderlist li.fi-print > a:before {
+    content: "\f02f" !important;
+    font-weight: 900 !important;
+}
+.folderlist li.fi-puzzle-piece > a:before {
+    content: "\f12e" !important;
+    font-weight: 900 !important;
+}
+.folderlist li.fi-qrcode > a:before {
+    content: "\f029" !important;
+    font-weight: 900 !important;
+}
+.folderlist li.fi-receipt > a:before {
+    content: "\f543" !important;
+    font-weight: 900 !important;
+}
+.folderlist li.fi-rocket > a:before {
+    content: "\f135" !important;
+    font-weight: 900 !important;
+}
+.folderlist li.fi-rss > a:before {
+    content: "\f09e" !important;
+    font-weight: 900 !important;
+}
+.folderlist li.fi-scale-balanced > a:before {
+    content: "\f24e" !important;
+    font-weight: 900 !important;
+}
+.folderlist li.fi-scissors > a:before {
+    content: "\f0c4" !important;
+    font-weight: 900 !important;
+}
+.folderlist li.fi-screwdriver-wrench > a:before {
+    content: "\f7d9" !important;
+    font-weight: 900 !important;
+}
+.folderlist li.fi-seedling > a:before {
+    content: "\f4d8" !important;
+    font-weight: 900 !important;
+}
+.folderlist li.fi-server > a:before {
+    content: "\f233" !important;
+    font-weight: 900 !important;
+}
+.folderlist li.fi-share-nodes > a:before {
+    content: "\f1e0" !important;
+    font-weight: 900 !important;
+}
+.folderlist li.fi-shield-halved > a:before {
+    content: "\f3ed" !important;
+    font-weight: 900 !important;
+}
+.folderlist li.fi-ship > a:before {
+    content: "\f21a" !important;
+    font-weight: 900 !important;
+}
+.folderlist li.fi-shirt > a:before {
+    content: "\f553" !important;
+    font-weight: 900 !important;
+}
+.folderlist li.fi-sitemap > a:before {
+    content: "\f0e8" !important;
+    font-weight: 900 !important;
+}
+.folderlist li.fi-sliders > a:before {
+    content: "\f1de" !important;
+    font-weight: 900 !important;
+}
+.folderlist li.fi-snowflake > a:before {
+    content: "\f2dc" !important;
+    font-weight: 400 !important;
+}
+.folderlist li.fi-star > a:before {
+    content: "\f005" !important;
+    font-weight: 400 !important;
+}
+.folderlist li.fi-stopwatch > a:before {
+    content: "\f2f2" !important;
+    font-weight: 900 !important;
+}
+.folderlist li.fi-store > a:before {
+    content: "\f54e" !important;
+    font-weight: 900 !important;
+}
+.folderlist li.fi-suitcase > a:before {
+    content: "\f0f2" !important;
+    font-weight: 900 !important;
+}
+.folderlist li.fi-sun > a:before {
+    content: "\f185" !important;
+    font-weight: 400 !important;
+}
+.folderlist li.fi-tag > a:before {
+    content: "\f02b" !important;
+    font-weight: 900 !important;
+}
+.folderlist li.fi-tags > a:before {
+    content: "\f02c" !important;
+    font-weight: 900 !important;
+}
+.folderlist li.fi-terminal > a:before {
+    content: "\f120" !important;
+    font-weight: 900 !important;
+}
+.folderlist li.fi-thumbs-up > a:before {
+    content: "\f164" !important;
+    font-weight: 400 !important;
+}
+.folderlist li.fi-thumbtack > a:before {
+    content: "\f08d" !important;
+    font-weight: 900 !important;
+}
+.folderlist li.fi-trash > a:before {
+    content: "\f1f8" !important;
+    font-weight: 900 !important;
+}
+.folderlist li.fi-trash-arrow-up > a:before {
+    content: "\f829" !important;
+    font-weight: 900 !important;
+}
+.folderlist li.fi-trash-can > a:before {
+    content: "\f2ed" !important;
+    font-weight: 400 !important;
+}
+.folderlist li.fi-tree > a:before {
+    content: "\f1bb" !important;
+    font-weight: 900 !important;
+}
+.folderlist li.fi-triangle-exclamation > a:before {
+    content: "\f071" !important;
+    font-weight: 900 !important;
+}
+.folderlist li.fi-trophy > a:before {
+    content: "\f091" !important;
+    font-weight: 900 !important;
+}
+.folderlist li.fi-truck > a:before {
+    content: "\f0d1" !important;
+    font-weight: 900 !important;
+}
+.folderlist li.fi-truck-fast > a:before {
+    content: "\f48b" !important;
+    font-weight: 900 !important;
+}
+.folderlist li.fi-umbrella > a:before {
+    content: "\f0e9" !important;
+    font-weight: 900 !important;
+}
+.folderlist li.fi-upload > a:before {
+    content: "\f093" !important;
+    font-weight: 900 !important;
+}
+.folderlist li.fi-user > a:before {
+    content: "\f007" !important;
+    font-weight: 400 !important;
+}
+.folderlist li.fi-user-group > a:before {
+    content: "\f500" !important;
+    font-weight: 900 !important;
+}
+.folderlist li.fi-user-tie > a:before {
+    content: "\f508" !important;
+    font-weight: 900 !important;
+}
+.folderlist li.fi-users > a:before {
+    content: "\f0c0" !important;
+    font-weight: 900 !important;
+}
+.folderlist li.fi-utensils > a:before {
+    content: "\f2e7" !important;
+    font-weight: 900 !important;
+}
+.folderlist li.fi-video > a:before {
+    content: "\f03d" !important;
+    font-weight: 900 !important;
+}
+.folderlist li.fi-wallet > a:before {
+    content: "\f555" !important;
+    font-weight: 900 !important;
+}
+.folderlist li.fi-wifi > a:before {
+    content: "\f1eb" !important;
+    font-weight: 900 !important;
+}
+.folderlist li.fi-wine-glass > a:before {
+    content: "\f4e3" !important;
+    font-weight: 900 !important;
+}
+.folderlist li.fi-wrench > a:before {
+    content: "\f0ad" !important;
+    font-weight: 900 !important;
+}
+
+/* live preview in the folder edit form (Settings -> Folders) */
+.fi-live-preview:before {
+    font-family: Icons;
+    font-style: normal;
+    font-size: 1.4em;
+    line-height: 1;
+    vertical-align: middle;
+}
+.fi-live-preview.fi-address-book:before {
+    content: "\f2b9";
+    font-weight: 400;
+}
+.fi-live-preview.fi-address-card:before {
+    content: "\f2bb";
+    font-weight: 400;
+}
+.fi-live-preview.fi-anchor:before {
+    content: "\f13d";
+    font-weight: 900;
+}
+.fi-live-preview.fi-arrows-rotate:before {
+    content: "\f021";
+    font-weight: 900;
+}
+.fi-live-preview.fi-bag-shopping:before {
+    content: "\f290";
+    font-weight: 900;
+}
+.fi-live-preview.fi-ban:before {
+    content: "\f05e";
+    font-weight: 900;
+}
+.fi-live-preview.fi-barcode:before {
+    content: "\f02a";
+    font-weight: 900;
+}
+.fi-live-preview.fi-basket-shopping:before {
+    content: "\f291";
+    font-weight: 900;
+}
+.fi-live-preview.fi-bell:before {
+    content: "\f0f3";
+    font-weight: 400;
+}
+.fi-live-preview.fi-bicycle:before {
+    content: "\f206";
+    font-weight: 900;
+}
+.fi-live-preview.fi-bolt:before {
+    content: "\f0e7";
+    font-weight: 900;
+}
+.fi-live-preview.fi-book:before {
+    content: "\f02d";
+    font-weight: 900;
+}
+.fi-live-preview.fi-book-open:before {
+    content: "\f518";
+    font-weight: 900;
+}
+.fi-live-preview.fi-bookmark:before {
+    content: "\f02e";
+    font-weight: 400;
+}
+.fi-live-preview.fi-box:before {
+    content: "\f466";
+    font-weight: 900;
+}
+.fi-live-preview.fi-box-archive:before {
+    content: "\f187";
+    font-weight: 900;
+}
+.fi-live-preview.fi-box-open:before {
+    content: "\f49e";
+    font-weight: 900;
+}
+.fi-live-preview.fi-boxes-stacked:before {
+    content: "\f468";
+    font-weight: 900;
+}
+.fi-live-preview.fi-bug:before {
+    content: "\f188";
+    font-weight: 900;
+}
+.fi-live-preview.fi-building:before {
+    content: "\f1ad";
+    font-weight: 400;
+}
+.fi-live-preview.fi-building-columns:before {
+    content: "\f19c";
+    font-weight: 900;
+}
+.fi-live-preview.fi-bullhorn:before {
+    content: "\f0a1";
+    font-weight: 900;
+}
+.fi-live-preview.fi-calendar:before {
+    content: "\f133";
+    font-weight: 400;
+}
+.fi-live-preview.fi-calendar-check:before {
+    content: "\f274";
+    font-weight: 400;
+}
+.fi-live-preview.fi-calendar-days:before {
+    content: "\f073";
+    font-weight: 400;
+}
+.fi-live-preview.fi-camera:before {
+    content: "\f030";
+    font-weight: 900;
+}
+.fi-live-preview.fi-car:before {
+    content: "\f1b9";
+    font-weight: 900;
+}
+.fi-live-preview.fi-cart-shopping:before {
+    content: "\f07a";
+    font-weight: 900;
+}
+.fi-live-preview.fi-chart-line:before {
+    content: "\f201";
+    font-weight: 900;
+}
+.fi-live-preview.fi-chart-pie:before {
+    content: "\f200";
+    font-weight: 900;
+}
+.fi-live-preview.fi-circle-check:before {
+    content: "\f058";
+    font-weight: 400;
+}
+.fi-live-preview.fi-circle-exclamation:before {
+    content: "\f06a";
+    font-weight: 900;
+}
+.fi-live-preview.fi-circle-info:before {
+    content: "\f05a";
+    font-weight: 900;
+}
+.fi-live-preview.fi-circle-question:before {
+    content: "\f059";
+    font-weight: 400;
+}
+.fi-live-preview.fi-circle-xmark:before {
+    content: "\f057";
+    font-weight: 400;
+}
+.fi-live-preview.fi-clipboard-list:before {
+    content: "\f46d";
+    font-weight: 900;
+}
+.fi-live-preview.fi-clock:before {
+    content: "\f017";
+    font-weight: 400;
+}
+.fi-live-preview.fi-cloud:before {
+    content: "\f0c2";
+    font-weight: 900;
+}
+.fi-live-preview.fi-code:before {
+    content: "\f121";
+    font-weight: 900;
+}
+.fi-live-preview.fi-coins:before {
+    content: "\f51e";
+    font-weight: 900;
+}
+.fi-live-preview.fi-comment:before {
+    content: "\f075";
+    font-weight: 400;
+}
+.fi-live-preview.fi-comment-dots:before {
+    content: "\f4ad";
+    font-weight: 400;
+}
+.fi-live-preview.fi-comments:before {
+    content: "\f086";
+    font-weight: 400;
+}
+.fi-live-preview.fi-credit-card:before {
+    content: "\f09d";
+    font-weight: 400;
+}
+.fi-live-preview.fi-cube:before {
+    content: "\f1b2";
+    font-weight: 900;
+}
+.fi-live-preview.fi-cubes:before {
+    content: "\f1b3";
+    font-weight: 900;
+}
+.fi-live-preview.fi-database:before {
+    content: "\f1c0";
+    font-weight: 900;
+}
+.fi-live-preview.fi-diagram-project:before {
+    content: "\f542";
+    font-weight: 900;
+}
+.fi-live-preview.fi-download:before {
+    content: "\f019";
+    font-weight: 900;
+}
+.fi-live-preview.fi-droplet:before {
+    content: "\f043";
+    font-weight: 900;
+}
+.fi-live-preview.fi-envelope:before {
+    content: "\f0e0";
+    font-weight: 400;
+}
+.fi-live-preview.fi-envelope-open:before {
+    content: "\f2b6";
+    font-weight: 400;
+}
+.fi-live-preview.fi-envelope-open-text:before {
+    content: "\f658";
+    font-weight: 900;
+}
+.fi-live-preview.fi-eye:before {
+    content: "\f06e";
+    font-weight: 400;
+}
+.fi-live-preview.fi-eye-slash:before {
+    content: "\f070";
+    font-weight: 400;
+}
+.fi-live-preview.fi-file:before {
+    content: "\f15b";
+    font-weight: 400;
+}
+.fi-live-preview.fi-file-code:before {
+    content: "\f1c9";
+    font-weight: 400;
+}
+.fi-live-preview.fi-file-csv:before {
+    content: "\f6dd";
+    font-weight: 900;
+}
+.fi-live-preview.fi-file-excel:before {
+    content: "\f1c3";
+    font-weight: 400;
+}
+.fi-live-preview.fi-file-invoice:before {
+    content: "\f570";
+    font-weight: 900;
+}
+.fi-live-preview.fi-file-invoice-dollar:before {
+    content: "\f571";
+    font-weight: 900;
+}
+.fi-live-preview.fi-file-lines:before {
+    content: "\f15c";
+    font-weight: 400;
+}
+.fi-live-preview.fi-file-pdf:before {
+    content: "\f1c1";
+    font-weight: 400;
+}
+.fi-live-preview.fi-file-powerpoint:before {
+    content: "\f1c4";
+    font-weight: 400;
+}
+.fi-live-preview.fi-file-word:before {
+    content: "\f1c2";
+    font-weight: 400;
+}
+.fi-live-preview.fi-file-zipper:before {
+    content: "\f1c6";
+    font-weight: 400;
+}
+.fi-live-preview.fi-film:before {
+    content: "\f008";
+    font-weight: 900;
+}
+.fi-live-preview.fi-filter:before {
+    content: "\f0b0";
+    font-weight: 900;
+}
+.fi-live-preview.fi-fire:before {
+    content: "\f06d";
+    font-weight: 900;
+}
+.fi-live-preview.fi-fire-flame-curved:before {
+    content: "\f7e4";
+    font-weight: 900;
+}
+.fi-live-preview.fi-folder:before {
+    content: "\f07b";
+    font-weight: 400;
+}
+.fi-live-preview.fi-folder-minus:before {
+    content: "\f65d";
+    font-weight: 900;
+}
+.fi-live-preview.fi-folder-open:before {
+    content: "\f07c";
+    font-weight: 400;
+}
+.fi-live-preview.fi-folder-plus:before {
+    content: "\f65e";
+    font-weight: 900;
+}
+.fi-live-preview.fi-gear:before {
+    content: "\f013";
+    font-weight: 900;
+}
+.fi-live-preview.fi-gears:before {
+    content: "\f085";
+    font-weight: 900;
+}
+.fi-live-preview.fi-gem:before {
+    content: "\f3a5";
+    font-weight: 400;
+}
+.fi-live-preview.fi-gift:before {
+    content: "\f06b";
+    font-weight: 900;
+}
+.fi-live-preview.fi-globe:before {
+    content: "\f0ac";
+    font-weight: 900;
+}
+.fi-live-preview.fi-graduation-cap:before {
+    content: "\f19d";
+    font-weight: 900;
+}
+.fi-live-preview.fi-hand-holding-dollar:before {
+    content: "\f4c0";
+    font-weight: 900;
+}
+.fi-live-preview.fi-handshake:before {
+    content: "\f2b5";
+    font-weight: 400;
+}
+.fi-live-preview.fi-hard-drive:before {
+    content: "\f0a0";
+    font-weight: 400;
+}
+.fi-live-preview.fi-headphones:before {
+    content: "\f025";
+    font-weight: 900;
+}
+.fi-live-preview.fi-heart:before {
+    content: "\f004";
+    font-weight: 400;
+}
+.fi-live-preview.fi-home:before {
+    content: "\f015";
+    font-weight: 900;
+}
+.fi-live-preview.fi-hospital:before {
+    content: "\f0f8";
+    font-weight: 400;
+}
+.fi-live-preview.fi-hourglass-half:before {
+    content: "\f252";
+    font-weight: 900;
+}
+.fi-live-preview.fi-id-card:before {
+    content: "\f2c2";
+    font-weight: 400;
+}
+.fi-live-preview.fi-image:before {
+    content: "\f03e";
+    font-weight: 400;
+}
+.fi-live-preview.fi-images:before {
+    content: "\f302";
+    font-weight: 400;
+}
+.fi-live-preview.fi-inbox:before {
+    content: "\f01c";
+    font-weight: 900;
+}
+.fi-live-preview.fi-industry:before {
+    content: "\f275";
+    font-weight: 900;
+}
+.fi-live-preview.fi-key:before {
+    content: "\f084";
+    font-weight: 900;
+}
+.fi-live-preview.fi-laptop:before {
+    content: "\f109";
+    font-weight: 900;
+}
+.fi-live-preview.fi-leaf:before {
+    content: "\f06c";
+    font-weight: 900;
+}
+.fi-live-preview.fi-lightbulb:before {
+    content: "\f0eb";
+    font-weight: 400;
+}
+.fi-live-preview.fi-link:before {
+    content: "\f0c1";
+    font-weight: 900;
+}
+.fi-live-preview.fi-list-check:before {
+    content: "\f0ae";
+    font-weight: 900;
+}
+.fi-live-preview.fi-list-ol:before {
+    content: "\f0cb";
+    font-weight: 900;
+}
+.fi-live-preview.fi-list-ul:before {
+    content: "\f0ca";
+    font-weight: 900;
+}
+.fi-live-preview.fi-location-dot:before {
+    content: "\f3c5";
+    font-weight: 900;
+}
+.fi-live-preview.fi-lock:before {
+    content: "\f023";
+    font-weight: 900;
+}
+.fi-live-preview.fi-lock-open:before {
+    content: "\f3c1";
+    font-weight: 900;
+}
+.fi-live-preview.fi-magnifying-glass:before {
+    content: "\f002";
+    font-weight: 900;
+}
+.fi-live-preview.fi-map:before {
+    content: "\f279";
+    font-weight: 400;
+}
+.fi-live-preview.fi-map-location:before {
+    content: "\f59f";
+    font-weight: 900;
+}
+.fi-live-preview.fi-microchip:before {
+    content: "\f2db";
+    font-weight: 900;
+}
+.fi-live-preview.fi-microphone:before {
+    content: "\f130";
+    font-weight: 900;
+}
+.fi-live-preview.fi-money-bill:before {
+    content: "\f0d6";
+    font-weight: 900;
+}
+.fi-live-preview.fi-money-bill-1:before {
+    content: "\f3d1";
+    font-weight: 400;
+}
+.fi-live-preview.fi-money-check-dollar:before {
+    content: "\f53d";
+    font-weight: 900;
+}
+.fi-live-preview.fi-moon:before {
+    content: "\f186";
+    font-weight: 400;
+}
+.fi-live-preview.fi-mug-hot:before {
+    content: "\f7b6";
+    font-weight: 900;
+}
+.fi-live-preview.fi-mug-saucer:before {
+    content: "\f0f4";
+    font-weight: 900;
+}
+.fi-live-preview.fi-music:before {
+    content: "\f001";
+    font-weight: 900;
+}
+.fi-live-preview.fi-network-wired:before {
+    content: "\f6ff";
+    font-weight: 900;
+}
+.fi-live-preview.fi-newspaper:before {
+    content: "\f1ea";
+    font-weight: 400;
+}
+.fi-live-preview.fi-note-sticky:before {
+    content: "\f249";
+    font-weight: 400;
+}
+.fi-live-preview.fi-paintbrush:before {
+    content: "\f1fc";
+    font-weight: 900;
+}
+.fi-live-preview.fi-paper-plane:before {
+    content: "\f1d8";
+    font-weight: 400;
+}
+.fi-live-preview.fi-paperclip:before {
+    content: "\f0c6";
+    font-weight: 900;
+}
+.fi-live-preview.fi-paw:before {
+    content: "\f1b0";
+    font-weight: 900;
+}
+.fi-live-preview.fi-pen:before {
+    content: "\f304";
+    font-weight: 900;
+}
+.fi-live-preview.fi-pen-nib:before {
+    content: "\f5ad";
+    font-weight: 900;
+}
+.fi-live-preview.fi-pen-to-square:before {
+    content: "\f044";
+    font-weight: 400;
+}
+.fi-live-preview.fi-pencil:before {
+    content: "\f303";
+    font-weight: 900;
+}
+.fi-live-preview.fi-phone:before {
+    content: "\f095";
+    font-weight: 900;
+}
+.fi-live-preview.fi-phone-volume:before {
+    content: "\f2a0";
+    font-weight: 900;
+}
+.fi-live-preview.fi-piggy-bank:before {
+    content: "\f4d3";
+    font-weight: 900;
+}
+.fi-live-preview.fi-plane:before {
+    content: "\f072";
+    font-weight: 900;
+}
+.fi-live-preview.fi-play:before {
+    content: "\f04b";
+    font-weight: 900;
+}
+.fi-live-preview.fi-plug:before {
+    content: "\f1e6";
+    font-weight: 900;
+}
+.fi-live-preview.fi-print:before {
+    content: "\f02f";
+    font-weight: 900;
+}
+.fi-live-preview.fi-puzzle-piece:before {
+    content: "\f12e";
+    font-weight: 900;
+}
+.fi-live-preview.fi-qrcode:before {
+    content: "\f029";
+    font-weight: 900;
+}
+.fi-live-preview.fi-receipt:before {
+    content: "\f543";
+    font-weight: 900;
+}
+.fi-live-preview.fi-rocket:before {
+    content: "\f135";
+    font-weight: 900;
+}
+.fi-live-preview.fi-rss:before {
+    content: "\f09e";
+    font-weight: 900;
+}
+.fi-live-preview.fi-scale-balanced:before {
+    content: "\f24e";
+    font-weight: 900;
+}
+.fi-live-preview.fi-scissors:before {
+    content: "\f0c4";
+    font-weight: 900;
+}
+.fi-live-preview.fi-screwdriver-wrench:before {
+    content: "\f7d9";
+    font-weight: 900;
+}
+.fi-live-preview.fi-seedling:before {
+    content: "\f4d8";
+    font-weight: 900;
+}
+.fi-live-preview.fi-server:before {
+    content: "\f233";
+    font-weight: 900;
+}
+.fi-live-preview.fi-share-nodes:before {
+    content: "\f1e0";
+    font-weight: 900;
+}
+.fi-live-preview.fi-shield-halved:before {
+    content: "\f3ed";
+    font-weight: 900;
+}
+.fi-live-preview.fi-ship:before {
+    content: "\f21a";
+    font-weight: 900;
+}
+.fi-live-preview.fi-shirt:before {
+    content: "\f553";
+    font-weight: 900;
+}
+.fi-live-preview.fi-sitemap:before {
+    content: "\f0e8";
+    font-weight: 900;
+}
+.fi-live-preview.fi-sliders:before {
+    content: "\f1de";
+    font-weight: 900;
+}
+.fi-live-preview.fi-snowflake:before {
+    content: "\f2dc";
+    font-weight: 400;
+}
+.fi-live-preview.fi-star:before {
+    content: "\f005";
+    font-weight: 400;
+}
+.fi-live-preview.fi-stopwatch:before {
+    content: "\f2f2";
+    font-weight: 900;
+}
+.fi-live-preview.fi-store:before {
+    content: "\f54e";
+    font-weight: 900;
+}
+.fi-live-preview.fi-suitcase:before {
+    content: "\f0f2";
+    font-weight: 900;
+}
+.fi-live-preview.fi-sun:before {
+    content: "\f185";
+    font-weight: 400;
+}
+.fi-live-preview.fi-tag:before {
+    content: "\f02b";
+    font-weight: 900;
+}
+.fi-live-preview.fi-tags:before {
+    content: "\f02c";
+    font-weight: 900;
+}
+.fi-live-preview.fi-terminal:before {
+    content: "\f120";
+    font-weight: 900;
+}
+.fi-live-preview.fi-thumbs-up:before {
+    content: "\f164";
+    font-weight: 400;
+}
+.fi-live-preview.fi-thumbtack:before {
+    content: "\f08d";
+    font-weight: 900;
+}
+.fi-live-preview.fi-trash:before {
+    content: "\f1f8";
+    font-weight: 900;
+}
+.fi-live-preview.fi-trash-arrow-up:before {
+    content: "\f829";
+    font-weight: 900;
+}
+.fi-live-preview.fi-trash-can:before {
+    content: "\f2ed";
+    font-weight: 400;
+}
+.fi-live-preview.fi-tree:before {
+    content: "\f1bb";
+    font-weight: 900;
+}
+.fi-live-preview.fi-triangle-exclamation:before {
+    content: "\f071";
+    font-weight: 900;
+}
+.fi-live-preview.fi-trophy:before {
+    content: "\f091";
+    font-weight: 900;
+}
+.fi-live-preview.fi-truck:before {
+    content: "\f0d1";
+    font-weight: 900;
+}
+.fi-live-preview.fi-truck-fast:before {
+    content: "\f48b";
+    font-weight: 900;
+}
+.fi-live-preview.fi-umbrella:before {
+    content: "\f0e9";
+    font-weight: 900;
+}
+.fi-live-preview.fi-upload:before {
+    content: "\f093";
+    font-weight: 900;
+}
+.fi-live-preview.fi-user:before {
+    content: "\f007";
+    font-weight: 400;
+}
+.fi-live-preview.fi-user-group:before {
+    content: "\f500";
+    font-weight: 900;
+}
+.fi-live-preview.fi-user-tie:before {
+    content: "\f508";
+    font-weight: 900;
+}
+.fi-live-preview.fi-users:before {
+    content: "\f0c0";
+    font-weight: 900;
+}
+.fi-live-preview.fi-utensils:before {
+    content: "\f2e7";
+    font-weight: 900;
+}
+.fi-live-preview.fi-video:before {
+    content: "\f03d";
+    font-weight: 900;
+}
+.fi-live-preview.fi-wallet:before {
+    content: "\f555";
+    font-weight: 900;
+}
+.fi-live-preview.fi-wifi:before {
+    content: "\f1eb";
+    font-weight: 900;
+}
+.fi-live-preview.fi-wine-glass:before {
+    content: "\f4e3";
+    font-weight: 900;
+}
+.fi-live-preview.fi-wrench:before {
+    content: "\f0ad";
+    font-weight: 900;
+}
